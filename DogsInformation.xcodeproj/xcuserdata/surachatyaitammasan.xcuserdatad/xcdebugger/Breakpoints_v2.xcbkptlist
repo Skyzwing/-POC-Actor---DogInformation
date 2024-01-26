@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EB57F31D-5F88-414E-B28F-36E0624BA3C3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9CAF46C4-1564-4907-8871-142088E7E1ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogsInformation/Utillities/Network/NetworkServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9CAF46C4-1564-4907-8871-142088E7E1ED - dde7e853dc0f8460"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DogsInformation.NetworkService.request&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: DogsInformation.EndpointType, &#x3c4;_0_1: Swift.Decodable&gt;(&#x3c4;_0_0) async throws -&gt; Swift.Optional&lt;&#x3c4;_0_1&gt;"
+                  moduleName = "DogsInformation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surachatyaitammasan/Desktop/Development/Swift/DogsInformation/DogsInformation/Utillities/Network/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "347">
+               </Location>
+               <Location
+                  uuid = "9CAF46C4-1564-4907-8871-142088E7E1ED - e6dfd6d4e2b02376"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for DogsInformation.NetworkService.request&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: DogsInformation.EndpointType, &#x3c4;_0_1: Swift.Decodable&gt;(&#x3c4;_0_0) async throws -&gt; Swift.Optional&lt;&#x3c4;_0_1&gt;"
+                  moduleName = "DogsInformation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surachatyaitammasan/Desktop/Development/Swift/DogsInformation/DogsInformation/Utillities/Network/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "97">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

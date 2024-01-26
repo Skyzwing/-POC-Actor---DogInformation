@@ -16,6 +16,19 @@
 		EE28B3902B5562ED00D2CA68 /* DogsInformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B38F2B5562ED00D2CA68 /* DogsInformationTests.swift */; };
 		EE28B39A2B5562ED00D2CA68 /* DogsInformationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3992B5562ED00D2CA68 /* DogsInformationUITests.swift */; };
 		EE28B39C2B5562ED00D2CA68 /* DogsInformationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B39B2B5562ED00D2CA68 /* DogsInformationUITestsLaunchTests.swift */; };
+		EE28B3AA2B55633000D2CA68 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3A92B55633000D2CA68 /* MainViewModel.swift */; };
+		EE28B3AF2B5563A400D2CA68 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3AE2B5563A400D2CA68 /* NetworkError.swift */; };
+		EE28B3B32B55655500D2CA68 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3B22B55655500D2CA68 /* HTTPMethod.swift */; };
+		EE28B3B52B55757D00D2CA68 /* DogsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3B42B55757D00D2CA68 /* DogsModel.swift */; };
+		EE28B3B92B5590A700D2CA68 /* DogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3B72B5590A700D2CA68 /* DogTableViewCell.swift */; };
+		EE28B3BA2B5590A700D2CA68 /* DogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE28B3B82B5590A700D2CA68 /* DogTableViewCell.xib */; };
+		EE28B3C12B55955000D2CA68 /* DogsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3C02B55955000D2CA68 /* DogsEntity.swift */; };
+		EE28B3C32B55995800D2CA68 /* NetworkEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3C22B55995800D2CA68 /* NetworkEndpoint.swift */; };
+		EE28B3C52B567DEE00D2CA68 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3C42B567DEE00D2CA68 /* APIConfig.swift */; };
+		EE28B3C72B56867E00D2CA68 /* BaseNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3C62B56867E00D2CA68 /* BaseNetworkService.swift */; };
+		EE28B3C92B5686E900D2CA68 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3C82B5686E900D2CA68 /* HTTPTask.swift */; };
+		EE28B3CB2B56872900D2CA68 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B3CA2B56872900D2CA68 /* ParameterEncoding.swift */; };
+		EEBE21072B56C20400BEC519 /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE21062B56C20400BEC519 /* NetworkServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		EE28B3952B5562ED00D2CA68 /* DogsInformationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsInformationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE28B3992B5562ED00D2CA68 /* DogsInformationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsInformationUITests.swift; sourceTree = "<group>"; };
 		EE28B39B2B5562ED00D2CA68 /* DogsInformationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsInformationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE28B3A92B55633000D2CA68 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		EE28B3AE2B5563A400D2CA68 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		EE28B3B22B55655500D2CA68 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		EE28B3B42B55757D00D2CA68 /* DogsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsModel.swift; sourceTree = "<group>"; };
+		EE28B3B72B5590A700D2CA68 /* DogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTableViewCell.swift; sourceTree = "<group>"; };
+		EE28B3B82B5590A700D2CA68 /* DogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogTableViewCell.xib; sourceTree = "<group>"; };
+		EE28B3C02B55955000D2CA68 /* DogsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsEntity.swift; sourceTree = "<group>"; };
+		EE28B3C22B55995800D2CA68 /* NetworkEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEndpoint.swift; sourceTree = "<group>"; };
+		EE28B3C42B567DEE00D2CA68 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		EE28B3C62B56867E00D2CA68 /* BaseNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetworkService.swift; sourceTree = "<group>"; };
+		EE28B3C82B5686E900D2CA68 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		EE28B3CA2B56872900D2CA68 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		EEBE21062B56C20400BEC519 /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +127,8 @@
 			children = (
 				EE28B3782B5562EA00D2CA68 /* AppDelegate.swift */,
 				EE28B37A2B5562EA00D2CA68 /* SceneDelegate.swift */,
-				EE28B37C2B5562EA00D2CA68 /* ViewController.swift */,
-				EE28B37E2B5562EA00D2CA68 /* Main.storyboard */,
+				EE28B3AB2B55636C00D2CA68 /* Utillities */,
+				EE28B3A82B55630B00D2CA68 /* Main */,
 				EE28B3812B5562ED00D2CA68 /* Assets.xcassets */,
 				EE28B3832B5562ED00D2CA68 /* LaunchScreen.storyboard */,
 				EE28B3862B5562ED00D2CA68 /* Info.plist */,
@@ -125,6 +151,83 @@
 				EE28B39B2B5562ED00D2CA68 /* DogsInformationUITestsLaunchTests.swift */,
 			);
 			path = DogsInformationUITests;
+			sourceTree = "<group>";
+		};
+		EE28B3A82B55630B00D2CA68 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EE28B3BE2B55948900D2CA68 /* Model */,
+				EE28B3BF2B55949300D2CA68 /* View */,
+				EE28B3BB2B5593E600D2CA68 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EE28B3AB2B55636C00D2CA68 /* Utillities */ = {
+			isa = PBXGroup;
+			children = (
+				EE28B3B02B5563A900D2CA68 /* Network */,
+			);
+			path = Utillities;
+			sourceTree = "<group>";
+		};
+		EE28B3B02B5563A900D2CA68 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EE28B3AE2B5563A400D2CA68 /* NetworkError.swift */,
+				EE28B3B22B55655500D2CA68 /* HTTPMethod.swift */,
+				EE28B3C82B5686E900D2CA68 /* HTTPTask.swift */,
+				EE28B3CA2B56872900D2CA68 /* ParameterEncoding.swift */,
+				EE28B3C42B567DEE00D2CA68 /* APIConfig.swift */,
+				EE28B3B12B5563B000D2CA68 /* Entities */,
+				EE28B3C22B55995800D2CA68 /* NetworkEndpoint.swift */,
+				EE28B3C62B56867E00D2CA68 /* BaseNetworkService.swift */,
+				EEBE21062B56C20400BEC519 /* NetworkServices.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EE28B3B12B5563B000D2CA68 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EE28B3C02B55955000D2CA68 /* DogsEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EE28B3B62B55908500D2CA68 /* DogCell */ = {
+			isa = PBXGroup;
+			children = (
+				EE28B3B72B5590A700D2CA68 /* DogTableViewCell.swift */,
+				EE28B3B82B5590A700D2CA68 /* DogTableViewCell.xib */,
+			);
+			path = DogCell;
+			sourceTree = "<group>";
+		};
+		EE28B3BB2B5593E600D2CA68 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE28B3A92B55633000D2CA68 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE28B3BE2B55948900D2CA68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE28B3B42B55757D00D2CA68 /* DogsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE28B3BF2B55949300D2CA68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE28B3B62B55908500D2CA68 /* DogCell */,
+				EE28B37E2B5562EA00D2CA68 /* Main.storyboard */,
+				EE28B37C2B5562EA00D2CA68 /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +336,7 @@
 			files = (
 				EE28B3852B5562ED00D2CA68 /* LaunchScreen.storyboard in Resources */,
 				EE28B3822B5562ED00D2CA68 /* Assets.xcassets in Resources */,
+				EE28B3BA2B5590A700D2CA68 /* DogTableViewCell.xib in Resources */,
 				EE28B3802B5562EA00D2CA68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +362,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE28B3C92B5686E900D2CA68 /* HTTPTask.swift in Sources */,
+				EE28B3B52B55757D00D2CA68 /* DogsModel.swift in Sources */,
+				EE28B3C12B55955000D2CA68 /* DogsEntity.swift in Sources */,
 				EE28B37D2B5562EA00D2CA68 /* ViewController.swift in Sources */,
+				EE28B3B32B55655500D2CA68 /* HTTPMethod.swift in Sources */,
+				EE28B3C32B55995800D2CA68 /* NetworkEndpoint.swift in Sources */,
 				EE28B3792B5562EA00D2CA68 /* AppDelegate.swift in Sources */,
+				EE28B3AF2B5563A400D2CA68 /* NetworkError.swift in Sources */,
+				EE28B3C52B567DEE00D2CA68 /* APIConfig.swift in Sources */,
 				EE28B37B2B5562EA00D2CA68 /* SceneDelegate.swift in Sources */,
+				EE28B3AA2B55633000D2CA68 /* MainViewModel.swift in Sources */,
+				EE28B3CB2B56872900D2CA68 /* ParameterEncoding.swift in Sources */,
+				EE28B3C72B56867E00D2CA68 /* BaseNetworkService.swift in Sources */,
+				EEBE21072B56C20400BEC519 /* NetworkServices.swift in Sources */,
+				EE28B3B92B5590A700D2CA68 /* DogTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
